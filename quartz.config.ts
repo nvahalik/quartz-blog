@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Domine",
+        body: "Quicksand",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f8fafc", // Soft off-white
+          lightgray: "#e2e8f0", // Light blue-gray
+          gray: "#94a3b8", // Medium blue-gray
+          darkgray: "#334155", // Dark blue-gray
+          dark: "#1e293b", // Deep navy
+          secondary: "#1e40af", // Royal blue
+          tertiary: "#3b82f6", // Bright blue
+          highlight: "rgba(59, 130, 246, 0.15)",
+          textHighlight: "#dbeafe88",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0f172a", // Deep navy background
+          lightgray: "#1e293b", // Navy-gray
+          gray: "#475569", // Medium slate
+          darkgray: "#cbd5e1", // Light blue-gray text
+          dark: "#f1f5f9", // Almost white text
+          secondary: "#60a5fa", // Sky blue
+          tertiary: "#3b82f6", // Bright blue
+          highlight: "rgba(59, 130, 246, 0.15)",
+          textHighlight: "#1e3a8a88",
         },
       },
     },
@@ -71,7 +71,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      // Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
