@@ -2,7 +2,7 @@
 title: "Boo Verizonwireless.com, Yay Verizon Wireless"
 date: "2008-08-28"
 tags:
-draft:
+draft: true
 ---
 
 Well, I'm heading up to Missouri, Kansas, and Arkansas this weekend with Sarah to visit her kids up there.  It'll be a long weekend since we have Monday off!  Considering my quasi-successful PHP4 to PHP5 upgrade on my hosting server  last week, I figure it'd be a good idea to get a wireless access card.  This is how my adventure began...

@@ -5,7 +5,7 @@ tags:
 draft:
 ---
 
-Lately I've had a big appreciation in the number of different translations and often find myself wanting to look up a verse very quickly.  Here are a handful of easy to use scripture reference custom searches for use with [Alfred](http://alfredapp.com/.)
+Lately I've had a big appreciation in the number of different translations and often find myself wanting to look up a verse very quickly.  Here are a handful of easy to use scripture reference custom searches for use with [Alfred](http://alfredapp.com/).
 
 [NIV](alfredapp://customsearch/NIV%20Scripture%20Reference/niv/ascii/url=http://www.biblegateway.com/quicksearch/?quicksearch={query}&qs_version=NIV)
 [The Message](alfredapp://customsearch/The%20Message%20Scripture%20Reference/msg/ascii/url=http://www.biblegateway.com/quicksearch/?quicksearch={query}&qs_version=MSG)

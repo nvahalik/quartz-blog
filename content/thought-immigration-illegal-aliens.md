@@ -2,7 +2,7 @@
 title: "A Thought On Immigration & Illegal Aliens"
 date: "2010-04-28"
 tags:
-draft:
+draft: true
 ---
 
 [Rep. Debbie Riddle](http://debbieriddle.org/) of Tomball is going to [introduce immigration-check legislation in Texas](http://news.yahoo.com/s/ap/20100428/ap_on_re_us/us_immigration_texas) that is similar to Arizona's newly passed law requiring law enforcement to question people about their immigration status.  Even [people in Ohio are thinking about implementing it](http://news.cincinnati.com/apps/pbcs.dll/article?AID=/AB/20100427/NEWS01/4280359/.)

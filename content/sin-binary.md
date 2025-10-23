@@ -2,7 +2,7 @@
 title: "Is Sin Binary?"
 date: "2010-10-03"
 tags:
-draft:
+draft: true
 ---
 
 Tonight while we were walking, I was telling Sarah about some of the things we went over today in our Sunday school class.  We went over commandments 5-10. Teach the commandments is easy, but explaining to a bunch of 4th graders why the law was given to Moses and what it means is kind of a stretch.  God has blessed me with the ability to be pretty good at describing or analogizing things.  It is very useful in my profession and has helped a lot while teaching these guys.

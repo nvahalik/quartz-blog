@@ -2,7 +2,7 @@
 title: "On The Road"
 date: "2008-08-30"
 tags:
-draft: 
+draft: true
 ---
 
 The card works great in Northeast Oklahoma.  Heading to Baxter Springs and it's still going.  Peaked down earlier at 1.67Mbits, and up at 435Kbits.  Not too shabby.
