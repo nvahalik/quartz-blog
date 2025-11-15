@@ -1,7 +1,7 @@
 ---
 title: "Jujutsu: Resources and Notes"
 date: "2025-11-08"
-tags: []
+tags: ['jujutsu', 'vcs', 'git']
 draft: false
 ---
 

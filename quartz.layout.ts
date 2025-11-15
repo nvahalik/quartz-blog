@@ -39,20 +39,20 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      title: "Everything",
-      folderDefaultState: "open",
-    }),
+    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
     // Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.DesktopOnly(
       Component.RecentNotes({
         limit: 5,
       }),
     ),
+    Component.Explorer({
+      title: "Everything",
+      folderDefaultState: "open",
+    }),
   ],
 }
 
