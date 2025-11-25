@@ -1,12 +1,17 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-import { FileTrieNode } from "./quartz/util/fileTrie"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.MobileOnly(
+      Component.RecentNotes({
+        limit: 5,
+      }),
+    ),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/nickvahalik",
@@ -25,13 +30,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-  ],
-  afterBody: [
-    Component.MobileOnly(
-      Component.RecentNotes({
-        limit: 5,
-      }),
-    ),
   ],
   left: [
     Component.PageTitle(),
