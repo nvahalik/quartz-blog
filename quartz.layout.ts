@@ -26,6 +26,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
   ],
+  afterBody: [
+    Component.MobileOnly(
+      Component.RecentNotes({
+        limit: 5,
+      }),
+    ),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -49,10 +56,6 @@ export const defaultContentPageLayout: PageLayout = {
         limit: 5,
       }),
     ),
-    Component.Explorer({
-      title: "Everything",
-      folderDefaultState: "open",
-    }),
   ],
 }
 
